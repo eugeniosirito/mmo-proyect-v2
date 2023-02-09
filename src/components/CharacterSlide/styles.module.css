@@ -1,0 +1,43 @@
+.chartFontColor {
+    transform: translate(-100px, 0px);
+}
+
+.imgPaladin {
+    width: 24%;
+    transform: translate(-10px, 0px);
+}
+
+.imgMage {
+    width: 24%;
+    transform: translate(0px, -80px);
+}
+
+.imgArcher {
+    width: 37%;
+    transform: translate(-155px, 20px);
+}
+
+.imgPirate {
+    width: 22%;
+    transform: translate(-30px, 10px);
+}
+
+.imgWorker {
+    width: 21%;
+    transform: translate(-40px, 60px);
+}
+
+.imgCleric {
+    width: 28%;
+    transform: translate(-130px, -20px);
+}
+
+.imgWarrior {
+    width: 29%;
+    transform: translate(-60px, 40px);
+}
+
+.imgAssassin {
+    width: 23%;
+    transform: translate(-80px, -50px);
+}

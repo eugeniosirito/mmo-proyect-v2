@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { CssBaseline, Grid } from "@mui/material";
+import Header from "./components/Header/Index";
+import SpaceOne from "./BackGroundImgsParallax/space1";
+import SpaceThree from "./BackGroundImgsParallax/space3";
+import HomeScreen from "./BackGroundImgsParallax/homeScreen";
+import SpaceFour from "./BackGroundImgsParallax/space4";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CssBaseline />
+      <Header />
+      <Grid display={'flex'} alignItems={'center'} justifyContent={'center'}>
+        <HomeScreen />
+      </Grid>
+      <SpaceOne />
+      <SpaceFour />
+      <SpaceThree />
+      {/*  <SpaceTwo /> */}
+
     </div>
   );
 }
