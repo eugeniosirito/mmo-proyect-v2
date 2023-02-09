@@ -1,4 +1,4 @@
-After 6 months of working and learning with ReactJs (from cero) i decided to make the last MMO proyect from scratch.
+After 6 months of working and learning with ReactJs (from zero) i decided to make the last MMO proyect from scratch.
 With this my intention is to apply everything I learned in all this months.
 
 in this new project, unlike the previous one, my approach was to mainly use react libraries.
